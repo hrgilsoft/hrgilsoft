@@ -41,18 +41,18 @@
 
       <nav class="navbar">
         <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#services">services</a>
-        <a href="#projects">projects</a>
-        <!-- <a href="#pricing">pricing</a> -->
+        <a href="about.html">about</a>
+        <a href="services.html">services</a>
+        <!-- <a href="#projects">projects</a> -->
+        <a href="careers.html">careers</a>
         <a href="#contact">contact</a>
       </nav>
 
       <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
-        <!-- <div id="info-btn" class="fas fa-info-circle"></div> -->
-        <!-- <div id="search-btn" class="fas fa-search"></div> -->
-        <!-- <div id="login-btn" class="fas fa-user"></div> -->
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <!-- <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div> -->
       </div>
 
       <form action="" class="search-form">
@@ -85,8 +85,7 @@
       <div class="info">
         <i class="fas fa-phone"></i>
         <h3>phone number</h3>
-        <p>+123-456-7890</p>
-        <p>+111-222-3333</p>
+        <p>224-465-7035</p>
       </div>
 
       <div class="info">
@@ -102,10 +101,7 @@
       </div>
 
       <div class="share">
-        <a
-          href="https://www.linkedin.com/in/gil-soft"
-          class="fab fa-linkedin"
-        ></a>
+        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
       </div>
     </div>
 
@@ -118,7 +114,7 @@
         <div class="swiper-wrapper">
           <section
             class="swiper-slide slide"
-            style="background: url(images/BG1.png) no-repeat"
+            style="background: url(images/banner1.jpg) no-repeat"
           >
             <div class="content">
               <h3>Innovating Your Digital Future</h3>
@@ -132,7 +128,7 @@
 
           <section
             class="swiper-slide slide"
-            style="background: url(images/BG2.png) no-repeat"
+            style="background: url(images/banner2.jpg) no-repeat"
           >
             <div class="content">
               <h3>Where Technology Meets Vision</h3>
@@ -159,7 +155,17 @@
 
       <div class="row">
         <div class="image">
-          <img src="images/pic-1.png" alt="" />
+          <img
+            src="images/about.jpg"
+            alt="About Gil Soft Software Inc"
+            style="
+              max-width: 350px;
+              width: 100%;
+              height: auto;
+              border-radius: 12px;
+              object-fit: cover;
+            "
+          />
         </div>
 
         <div class="content">
@@ -168,30 +174,69 @@
             At Software Company, we harness the power of technology to create
             innovative solutions that drive business success. From dynamic
             websites to transformative mobile apps and cutting-edge AI, we're
-            your partners in navigating the digital landscape
+            your partners in navigating the digital landscape.
           </p>
-          <a href="#services" class="btn">read more</a>
+          <div id="about-more" style="display: none">
+            <p>
+              <strong>Our Mission:</strong> To empower organizations with
+              reliable, scalable, and innovative digital solutions that
+              accelerate growth and efficiency.
+            </p>
+            <p>
+              <strong>Our Vision:</strong> To be a global leader in technology
+              services, recognized for our commitment to quality, integrity, and
+              customer satisfaction.
+            </p>
+            <ul>
+              <li>
+                <p>
+                  ✔️ Decades of combined experience in software engineering and
+                  IT consulting
+                </p>
+              </li>
+              <li>
+                <p>✔️ Agile, client-focused approach for every project</p>
+              </li>
+              <li>
+                <p>
+                  ✔️ Continuous learning and adoption of the latest technologies
+                </p>
+              </li>
+              <li>
+                <p>✔️ Transparent communication and long-term partnerships</p>
+              </li>
+            </ul>
+            <p>
+              Whether you are a startup or an established enterprise, Gil Soft
+              Software Inc is your trusted partner for digital transformation
+              and sustained success. Our team is passionate about delivering
+              solutions that not only meet but exceed your expectations.
+            </p>
+          </div>
+          <a href="javascript:void(0);" class="btn" id="about-read-more"
+            >read more</a
+          >
         </div>
       </div>
 
       <div class="box-container">
         <div class="box">
-          <h3>15+</h3>
+          <h3>8+</h3>
           <p>years of experience</p>
         </div>
 
         <div class="box">
-          <h3>1500+</h3>
+          <h3>20+</h3>
           <p>project completed</p>
         </div>
 
         <div class="box">
-          <h3>790+</h3>
+          <h3>10+</h3>
           <p>satiesfied clients</p>
         </div>
 
         <div class="box">
-          <h3>100+</h3>
+          <h3>5+</h3>
           <p>active developers</p>
         </div>
       </div>
@@ -247,7 +292,7 @@
 
     <!-- projects section starts  -->
 
-    <section class="projects" id="projects">
+    <!-- <section class="projects" id="projects">
       <h1 class="heading">our projects</h1>
 
       <div class="box-container">
@@ -290,13 +335,13 @@
           </div>
         </a>
       </div>
-    </section>
+    </section> -->
 
     <!-- projects section ends -->
 
     <!-- reviews section starts  -->
 
-    <section class="reviews">
+    <!-- <section class="reviews">
       <h1 class="heading">clients reviews</h1>
 
       <div class="swiper reviews-slider">
@@ -434,9 +479,59 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- reviews section ends -->
+
+    <!-- cleints section starts -->
+
+    <section class="clients" id="clients">
+      <h1 class="heading">clients worked with</h1>
+      <div class="logo-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="images/iwco.jpg"
+              alt="IWCO Direct"
+              title="IWCO Direct"
+              style="max-height: 100px"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="images/welsfargo.png"
+              alt="Wells Fargo"
+              title="Wells Fargo"
+              style="max-height: 100px"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="images/wipro.png"
+              alt="Wipro"
+              title="Wipro"
+              style="max-height: 100px"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="images/conagra.jpg"
+              alt="Conagra"
+              title="Conagra"
+              style="max-height: 100px"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="images/chase.jpg"
+              alt="Chase Bank"
+              title="Chase Bank"
+              style="max-height: 100px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- pricing section starts  -->
 
@@ -529,10 +624,11 @@
     <section class="footer">
       <div class="links">
         <a class="btn" href="#home">home</a>
-        <a class="btn" href="#about">about</a>
-        <a class="btn" href="#services">services</a>
-        <a class="btn" href="#projects">projects</a>
+        <a class="btn" href="about.html">about</a>
+        <a class="btn" href="services.html">services</a>
+        <!-- <a class="btn" href="#projects">projects</a> -->
         <!-- <a class="btn" href="#pricing">pricing</a> -->
+        <a class="btn" href="careers.html">careers</a>
         <a class="btn" href="#contact">contact</a>
       </div>
 
@@ -556,6 +652,21 @@
 
     <script>
       lightGallery(document.querySelector(".projects .box-container"));
+      document.addEventListener("DOMContentLoaded", function () {
+        var readMoreBtn = document.getElementById("about-read-more");
+        var moreContent = document.getElementById("about-more");
+        if (readMoreBtn && moreContent) {
+          readMoreBtn.addEventListener("click", function () {
+            if (moreContent.style.display === "none") {
+              moreContent.style.display = "block";
+              readMoreBtn.textContent = "read less";
+            } else {
+              moreContent.style.display = "none";
+              readMoreBtn.textContent = "read more";
+            }
+          });
+        }
+      });
     </script>
   </body>
 </html>
